@@ -1,0 +1,40 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@lukeed/fetch-event-stream@~0.1.5": "0.1.5",
+    "jsr:@std/assert@^1.0.11": "1.0.11",
+    "jsr:@std/http@0.221": "0.221.0",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "jsr:@std/streams@0.221": "0.221.0"
+  },
+  "jsr": {
+    "@lukeed/fetch-event-stream@0.1.5": {
+      "integrity": "50fe145b95e6ead49584c4f00dbb266c34a572e2ac97a924463f567887cd99ce",
+      "dependencies": [
+        "jsr:@std/http",
+        "jsr:@std/streams"
+      ]
+    },
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/http@0.221.0": {
+      "integrity": "35fdcfed1501f2052338bf7ffba5d66f1455f2fffc01e9d7cf13eed548fffbaa"
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    },
+    "@std/streams@0.221.0": {
+      "integrity": "47f2f74634b47449277c0ee79fe878da4424b66bd8975c032e3afdca88986e61"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@lukeed/fetch-event-stream@~0.1.5",
+      "jsr:@std/assert@^1.0.11"
+    ]
+  }
+}
